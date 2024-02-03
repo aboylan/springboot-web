@@ -1,6 +1,5 @@
 package com.aboylan.curso.springboot.webapp.springbootweb.controllers;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -12,8 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.aboylan.curso.springboot.webapp.springbootweb.models.User;
 import com.aboylan.curso.springboot.webapp.springbootweb.models.dto.UserDto;
-import org.springframework.web.bind.annotation.RequestParam;
-
 
 @RestController
 @RequestMapping("/api")
